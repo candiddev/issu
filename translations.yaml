@@ -1,0 +1,404 @@
+outputs:
+- format: go
+  package: main
+  path: ../go/issu
+translations:
+  AddArgs1:
+    ar: اسم القضية
+    context: add arg1
+    de: Problemname
+    en: issue name
+    es: Nombre del problema
+    fr: nom du problème
+    hi: मुद्दे का नाम
+    ja: 問題名
+    nl: naam van het probleem
+    pt: nome do problema
+    ru: название проблемы
+    zh: 问题名称
+  AddUsage:
+    ar: أضف مشكلة جديدة وافتحها في المحرر.
+    context: add usage
+    de: Fügen Sie ein neues Problem hinzu und öffnen Sie es im Editor.
+    en: Add a new issue and open in editor.
+    es: Agregue un nuevo problema y ábralo en el editor.
+    fr: Ajoutez un nouveau problème et ouvrez-le dans l&#39;éditeur.
+    hi: एक नया मुद्दा जोड़ें और संपादक में खोलें.
+    ja: 新しい問題を追加してエディターで開きます。
+    nl: Voeg een nieuw probleem toe en open het in de editor.
+    pt: Adicione um novo problema e abra no editor.
+    ru: Добавьте новый выпуск и откройте в редакторе.
+    zh: 添加新问题并在编辑器中打开。
+  AfterUsage:
+    ar: نقل مصدر المشكلة بعد المشكلة المستهدفة.
+    context: Usage for after command
+    de: Verschieben Sie das Quellproblem nach dem Zielproblem.
+    en: Move source issue after target issue.
+    es: Trasladar el problema de origen al de destino.
+    fr: Déplacer le problème source après le problème cible.
+    hi: स्रोत समस्या को लक्ष्य समस्या के बाद ले जाएँ.
+    ja: ソースの問題をターゲットの問題の後に移動します。
+    nl: Verplaats het bronprobleem naar het doelprobleem.
+    pt: Mova o problema de origem para o problema de destino.
+    ru: Перемещайте исходную проблему за целевой.
+    zh: 将源问题移至目标问题之后。
+  BeforeUsage:
+    ar: نقل المشكلة المصدرية قبل المشكلة المستهدفة.
+    context: Usage for before command
+    de: Verschieben Sie das Quellproblem vor das Zielproblem.
+    en: Move source issue before target issue.
+    es: Mueva el problema de origen antes del problema de destino.
+    fr: Déplacer le problème source avant le problème cible.
+    hi: स्रोत समस्या को लक्ष्य समस्या से पहले ले जाएँ.
+    ja: ソースの問題をターゲットの問題の前に移動します。
+    nl: Verplaats het bronprobleem vóór het doelprobleem.
+    pt: Mova o problema de origem antes do problema de destino.
+    ru: Переместить исходную проблему перед целевой.
+    zh: 将源问题移到目标问题之前。
+  DeleteUsage:
+    ar: حذف المشكلات التي تطابق مرشحًا.
+    context: delete usage
+    de: Löschen Sie Probleme, die einem Filter entsprechen.
+    en: Delete issues matching a filter.
+    es: Eliminar problemas que coinciden con un filtro.
+    fr: Supprimer les problèmes correspondant à un filtre.
+    hi: फ़िल्टर से मेल खाने वाली समस्याओं को हटाएँ.
+    ja: フィルターに一致する問題を削除します。
+    nl: Verwijder problemen die overeenkomen met een filter.
+    pt: Excluir problemas que correspondem a um filtro.
+    ru: Удалить проблемы, соответствующие фильтру.
+    zh: 删除符合过滤器的问题。
+  Description:
+    ar: إدارة المشكلات التي يقودها سطر الأوامر
+    context: app description
+    de: CLI-gesteuertes Problemmanagement
+    en: CLI driven issue management
+    es: Gestión de problemas basada en CLI
+    fr: Gestion des problèmes pilotée par CLI
+    hi: CLI संचालित समस्या प्रबंधन
+    ja: CLI による問題管理
+    nl: CLI-gestuurd probleembeheer
+    pt: Gerenciamento de problemas orientado por CLI
+    ru: Управление проблемами на основе CLI
+    zh: CLI 驱动的问题管理
+  EditArg:
+    ar: معرف أو مفتاح=regexp
+    context: Edit command argument
+    de: ID oder Schlüssel=regulärer Ausdruck
+    en: id or key=regexp
+    es: id o clave=regexp
+    fr: id ou clé = regexp
+    hi: आईडी या कुंजी=regexp
+    ja: id または key=正規表現
+    nl: id of sleutel=regexp
+    pt: id ou chave=regexp
+    ru: идентификатор или ключ=регулярное выражение
+    zh: id 或 key=regexp
+  EditUsage:
+    ar: تعديل قائمة المشكلات التي تطابق معرفًا أو مرشحًا.
+    context: Edit usage
+    de: Bearbeiten Sie eine Liste von Problemen, die einer ID oder einem Filter entsprechen.
+    en: Edit a list of issues matching an ID or filter.
+    es: Editar una lista de problemas que coincidan con un ID o filtro.
+    fr: Modifier une liste de problèmes correspondant à un ID ou à un filtre.
+    hi: किसी आईडी या फ़िल्टर से मेल खाने वाली समस्याओं की सूची संपादित करें.
+    ja: ID またはフィルターに一致する問題のリストを編集します。
+    nl: Bewerk een lijst met problemen die overeenkomen met een ID of filter.
+    pt: Edite uma lista de problemas que correspondem a um ID ou filtro.
+    ru: Редактировать список проблем, соответствующих идентификатору или фильтру.
+    zh: 编辑与 ID 或过滤器匹配的问题列表。
+  EditorFlagUsage:
+    ar: المحرر الذي يجب استخدامه، الافتراضي هو $EDITOR
+    context: Editor flag
+    de: zu verwendender Editor, Standard ist $EDITOR
+    en: editor to use, default is $EDITOR
+    es: editor a utilizar, el predeterminado es $EDITOR
+    fr: éditeur à utiliser, la valeur par défaut est $EDITOR
+    hi: उपयोग करने के लिए संपादक, डिफ़ॉल्ट $EDITOR है
+    ja: 使用するエディタ。デフォルトは $EDITOR
+    nl: editor om te gebruiken, standaard is $EDITOR
+    pt: editor a ser usado, o padrão é $EDITOR
+    ru: используемый редактор, по умолчанию $EDITOR
+    zh: 使用的编辑器，默认为 $EDITOR
+  EditorPlaceholder:
+    ar: محرر
+    context: Editor name
+    de: Editor
+    en: editor
+    es: editor
+    fr: éditeur
+    hi: संपादक
+    ja: エディタ
+    nl: editor
+    pt: editor
+    ru: редактор
+    zh: 编辑
+  IDSource:
+    ar: معرف المصدر
+    context: Source ID
+    de: Quell-ID
+    en: source ID
+    es: Identificación de la fuente
+    fr: ID de la source
+    hi: स्रोत आईडी
+    ja: ソースID
+    nl: bron-ID
+    pt: ID da fonte
+    ru: идентификатор источника
+    zh: 源 ID
+  IDTarget:
+    ar: معرف الهدف
+    context: Target ID
+    de: Ziel-ID
+    en: target ID
+    es: Identificación del objetivo
+    fr: identifiant cible
+    hi: लक्ष्य आईडी
+    ja: ターゲットID
+    nl: doel-ID
+    pt: ID do alvo
+    ru: целевой идентификатор
+    zh: 目标标识
+  Label:
+    ar: ملصق
+    context: A label for something
+    de: Etikett
+    en: label
+    es: etiqueta
+    fr: étiquette
+    hi: लेबल
+    ja: ラベル
+    nl: label
+    pt: rótulo
+    ru: этикетка
+    zh: 标签
+  LabelUsage:
+    ar: حدد تسمية في شكل key=value1,value2
+    context: Usage for a label
+    de: Geben Sie eine Bezeichnung in der Form Schlüssel=Wert1,Wert2 an.
+    en: Specify a label in the form of key=value1,value2
+    es: Especifique una etiqueta en el formato clave=valor1,valor2
+    fr: Spécifiez une étiquette sous la forme clé=valeur1,valeur2
+    hi: कुंजी=मान1,मान2 के रूप में लेबल निर्दिष्ट करें
+    ja: key=value1,value2の形式でラベルを指定します
+    nl: Geef een label op in de vorm van sleutel=waarde1,waarde2
+    pt: Especifique um rótulo no formato chave=valor1,valor2
+    ru: Укажите метку в виде ключ=значение1,значение2
+    zh: 以key=value1,value2的形式指定标签
+  LabelsUsage:
+    ar: قائمة جميع العلامات
+    context: Usage for labels command
+    de: Alle Labels auflisten
+    en: List all labels
+    es: Listar todas las etiquetas
+    fr: Lister toutes les étiquettes
+    hi: सभी लेबल सूचीबद्ध करें
+    ja: すべてのラベルを一覧表示する
+    nl: Alle labels weergeven
+    pt: Listar todos os rótulos
+    ru: Список всех меток
+    zh: 列出所有标签
+  LintUsage:
+    ar: قم بفحص جميع المشكلات والخروج من الصفحة 1 إذا تم العثور على أي أخطاء.
+    context: Lint usage
+    de: Führen Sie einen Lint für alle Probleme durch und beenden Sie den Vorgang
+      mit 1, wenn Fehler gefunden werden.
+    en: Lint all issues and exit 1 if any errors are found.
+    es: Limpie todos los problemas y salga 1 si se encuentra algún error.
+    fr: Vérifiez tous les problèmes et quittez 1 si des erreurs sont détectées.
+    hi: सभी समस्याओं को लिंट करें और यदि कोई त्रुटि पाई जाए तो 1 से बाहर निकलें।
+    ja: すべての問題を lint し、エラーが見つかった場合は 1 で終了します。
+    nl: Verwijder alle problemen en verlaat versie 1 als er fouten worden gevonden.
+    pt: Verifique todos os problemas e saia do 1 se algum erro for encontrado.
+    ru: Проведите линтинг всех проблем и выйдите из 1, если будут обнаружены какие-либо
+      ошибки.
+    zh: 对所有问题进行 Lint 检查，如果发现任何错误则退出 1。
+  ListUsage:
+    ar: قم بإدراج جميع المشكلات باستخدام المرشحات الاختيارية والفرز.
+    context: List usage
+    de: Listen Sie alle Probleme mit optionalen Filtern und Sortierungen auf.
+    en: List all issues with optional filters and sorting.
+    es: Enumere todos los problemas con filtros y clasificación opcionales.
+    fr: Répertoriez tous les problèmes avec des filtres et un tri facultatifs.
+    hi: वैकल्पिक फ़िल्टर और सॉर्टिंग के साथ सभी समस्याओं की सूची बनाएं.
+    ja: オプションのフィルターと並べ替えを使用してすべての問題を一覧表示します。
+    nl: Maak een lijst van alle problemen met optionele filters en sortering.
+    pt: Liste todos os problemas com filtros e classificação opcionais.
+    ru: Перечислите все проблемы с дополнительными фильтрами и сортировкой.
+    zh: 列出所有问题，并提供可选的过滤器和排序功能。
+  OrgUsage:
+    ar: تنظيم كافة المشكلات، وإضافة العلامات الافتراضية وتطبيع المواضع.
+    context: Org usage
+    de: Organisieren Sie alle Probleme, indem Sie Standardbeschriftungen hinzufügen
+      und Positionen normalisieren.
+    en: Organize all issues, adding default labels and normalizing positions.
+    es: Organice todos los problemas, agregando etiquetas predeterminadas y normalizando
+      posiciones.
+    fr: Organisez tous les problèmes en ajoutant des étiquettes par défaut et en normalisant
+      les positions.
+    hi: सभी मुद्दों को व्यवस्थित करें, डिफ़ॉल्ट लेबल जोड़ें और स्थिति को सामान्य करें।
+    ja: すべての問題を整理し、デフォルトのラベルを追加して位置を正規化します。
+    nl: Organiseer alle problemen, voeg standaardlabels toe en normaliseer posities.
+    pt: Organize todos os problemas, adicionando rótulos padrão e normalizando posições.
+    ru: Организуйте все проблемы, добавив метки по умолчанию и нормализуя позиции.
+    zh: 组织所有问题，添加默认标签并规范化位置。
+  PomArg1:
+    ar: معرف الإصدار لتتبع الوقت ضده
+    context: Argument for Pomodoro to track against an ID
+    de: Ausgabe-ID zur Zeiterfassung
+    en: issue id to track time against
+    es: Emitir identificación para rastrear el tiempo
+    fr: identifiant de problème pour suivre le temps écoulé
+    hi: समय का पता लगाने के लिए आईडी जारी करें
+    ja: 時間を追跡するための問題ID
+    nl: probleem-id om tijd bij te houden
+    pt: emitir id para controlar o tempo contra
+    ru: идентификатор выпуска для отслеживания времени
+    zh: 用于跟踪时间的问题 ID
+  PomFlagI:
+    ar: عدد بومودوري الذي يجب إكماله قبل فترة انقطاع طويلة.
+    context: Pom flag to set interval
+    de: Anzahl der Pomodori, die vor einer langen Pause abgeschlossen werden müssen.
+    en: Number of Pomodori to complete before a long break.
+    es: Número de Pomodori a completar antes de un descanso largo.
+    fr: Nombre de Pomodori à terminer avant une longue pause.
+    hi: लंबे ब्रेक से पहले पूरा करने के लिए पोमोडोरी की संख्या।
+    ja: 長い休憩の前に完了するポモドーロの数。
+    nl: Aantal Pomodori dat voltooid moet worden voordat er een lange pauze volgt.
+    pt: Número de Pomodori para completar antes de uma longa pausa.
+    ru: Количество «Помидоров», которые нужно завершить перед большим перерывом.
+    zh: 长时间休息前要完成的番茄钟数量。
+  PomFlagL:
+    ar: طول فترة انقطاع طويلة.
+    context: Pom flag to set long break length
+    de: Dauer einer langen Pause.
+    en: Length of a long break.
+    es: Duración de un descanso largo.
+    fr: Durée d&#39;une longue pause.
+    hi: एक लम्बे ब्रेक की अवधि.
+    ja: 長い休憩の長さ。
+    nl: Duur van een lange pauze.
+    pt: Duração de uma pausa longa.
+    ru: Продолжительность длительного перерыва.
+    zh: 长假的长度。
+  PomFlagS:
+    ar: مدة الاستراحة القصيرة.
+    context: Pom flag to set short break length
+    de: Dauer einer kurzen Pause.
+    en: Length of a short break.
+    es: Duración de un descanso breve.
+    fr: Durée d&#39;une courte pause.
+    hi: एक छोटे ब्रेक की लंबाई.
+    ja: 短い休憩の長さ。
+    nl: Duur van een korte pauze.
+    pt: Duração de uma pequena pausa.
+    ru: Продолжительность короткого перерыва.
+    zh: 短暂休息的时间长度。
+  PomFlagT:
+    ar: طول بومودورو.
+    context: Pom flag to set Pomodoro length
+    de: Länge des Pomodoro.
+    en: Length of Pomodoro.
+    es: Duración del Pomodoro.
+    fr: Longueur du Pomodoro.
+    hi: पोमोडोरो की लंबाई.
+    ja: ポモドーロの長さ。
+    nl: Lengte van de Pomodoro.
+    pt: Duração do Pomodoro.
+    ru: Длина Помидора.
+    zh: 番茄工作时长。
+  PomPlaceholderDuration:
+    ar: مدة
+    context: Pom placeholder for minutes
+    de: Dauer
+    en: duration
+    es: duración
+    fr: durée
+    hi: अवधि
+    ja: 間隔
+    nl: duur
+    pt: duração
+    ru: продолжительность
+    zh: 期间
+  PomPlaceholderIntervals:
+    ar: فترات
+    context: Pom placeholder for intervals
+    de: Intervalle
+    en: intervals
+    es: intervalos
+    fr: intervalles
+    hi: अंतराल
+    ja: 間隔
+    nl: intervallen
+    pt: intervalos
+    ru: интервалы
+    zh: 间隔
+  PomUsage:
+    ar: يبدأ مؤقت بومودورو - العمل لمدة معينة من الوقت (تسمى بومودورو)، خذ استراحة
+      قصيرة، كرر ذلك عدة مرات، ثم خذ استراحة طويلة، وكرر ذلك.
+    context: Pom usage
+    de: Startet einen Pomodoro-Timer – arbeiten Sie eine bestimmte Zeit lang (Pomodoro
+      genannt), machen Sie eine kurze Pause, wiederholen Sie dies einige Male, machen
+      Sie dann eine lange Pause und wiederholen Sie den Vorgang.
+    en: Starts a Pomodoro timer--work for a certain amount of time (called a Pomodoro),
+      take a short break, repeat this a few times, then take a long break, and repeat.
+    es: 'Inicia un temporizador Pomodoro: trabaja durante una cierta cantidad de tiempo
+      (llamado Pomodoro), toma un breve descanso, repite esto unas cuantas veces,
+      luego toma un descanso largo y repite.'
+    fr: 'Démarre un minuteur Pomodoro : travaillez pendant un certain temps (appelé
+      Pomodoro), faites une courte pause, répétez ceci plusieurs fois, puis faites
+      une longue pause et répétez.'
+    hi: पोमोडोरो टाइमर शुरू करें - एक निश्चित समय तक काम करें (जिसे पोमोडोरो कहा जाता
+      है), थोड़ा ब्रेक लें, इसे कुछ बार दोहराएं, फिर लंबा ब्रेक लें, और दोहराएं।
+    ja: ポモドーロ タイマーを開始します。一定の時間 (ポモドーロと呼ばれます) 作業し、短い休憩を取り、これを数回繰り返し、その後長い休憩を取り、これを繰り返します。
+    nl: 'Start een Pomodoro-timer: werk een bepaalde tijd (een Pomodoro), neem een
+      korte pauze, herhaal dit een paar keer, neem dan een lange pauze en herhaal
+      dit.'
+    pt: 'Inicia um cronômetro Pomodoro: trabalhe por um determinado período de tempo
+      (chamado de Pomodoro), faça uma pequena pausa, repita isso algumas vezes, depois
+      faça uma longa pausa e repita.'
+    ru: Запускает таймер «Помодоро» — работаете в течение определенного периода времени
+      (называемого «Помодоро»), делаете короткий перерыв, повторяете это несколько
+      раз, затем делаете длительный перерыв и повторяете.
+    zh: 启动番茄钟计时器——工作一段时间（称为番茄钟），短暂休息，重复几次，然后长时间休息，再重复。
+  SetDeleteUsage:
+    ar: احذف العلامة الخاصة بالقضايا
+    context: Set flag delete usage
+    de: Löschen des Labels für Probleme
+    en: Delete the label for issues
+    es: Eliminar la etiqueta de los problemas
+    fr: Supprimer l&#39;étiquette des problèmes
+    hi: समस्याओं के लिए लेबल हटाएं
+    ja: 問題のラベルを削除する
+    nl: Verwijder het label voor problemen
+    pt: Excluir o rótulo para problemas
+    ru: Удалить метку для проблем
+    zh: 删除问题标签
+  SetUsage:
+    ar: قم بتعيين تسمية وقيم للمشكلات التي تطابق مرشحًا.
+    context: Set command usage
+    de: Legen Sie eine Bezeichnung und Werte für Probleme fest, die einem Filter entsprechen.
+    en: Set a label and values for issues that match a filter.
+    es: Establezca una etiqueta y valores para los problemas que coincidan con un
+      filtro.
+    fr: Définissez une étiquette et des valeurs pour les problèmes qui correspondent
+      à un filtre.
+    hi: फ़िल्टर से मेल खाने वाली समस्याओं के लिए लेबल और मान सेट करें.
+    ja: フィルターに一致する問題のラベルと値を設定します。
+    nl: Stel een label en waarden in voor problemen die aan een filter voldoen.
+    pt: Defina um rótulo e valores para problemas que correspondem a um filtro.
+    ru: Установите метку и значения для проблем, соответствующих фильтру.
+    zh: 为符合过滤器的问题设置标签和值。
+  Values:
+    ar: القيمة (يمكن تكرارها لقيم متعددة)
+    context: A list of values
+    de: Wert (kann für mehrere Werte wiederholt werden)
+    en: value (can be repeated for multiple values)
+    es: valor (se puede repetir para múltiples valores)
+    fr: valeur (peut être répétée pour plusieurs valeurs)
+    hi: मान (अनेक मानों के लिए दोहराया जा सकता है)
+    ja: 値（複数の値の場合は繰り返すことができます）
+    nl: waarde (kan herhaald worden voor meerdere waarden)
+    pt: valor (pode ser repetido para vários valores)
+    ru: значение (можно повторить для нескольких значений)
+    zh: 值（可以重复多个值）
