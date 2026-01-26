@@ -13,7 +13,7 @@ Issu includes time tracking and a [Pomodoro Timer](https://wikipedia.org/wiki/Po
 The Pomodro timer within Issu is completely customizable and allows you to set the lengths and intervals appropriate for you:
 
 ```bash
-Usage: issu <global flags> pom <command flags> [issue id to track time against]
+Usage: issu <global flags> pomodoro <command flags> [issue id to track time against]
 
 Starts a Pomodoro timer--work for a certain amount of time (called a Pomodoro), take a short break, repeat this a few times, then take a long break, and repeat.
 

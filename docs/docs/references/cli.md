@@ -25,7 +25,7 @@ Move an issue's priority before another issue's priority.
 
 {{% snippet cli_config %}}
 
-### `del`
+### `delete`
 
 Delete issues matching a filter.
 
@@ -51,11 +51,11 @@ Lint issues and exit if errors are found.  Useful for CI/CD pipelines.
 
 List issues as a table or a JSON array.
 
-### `org`
+### `organize`
 
 Organize issues by adding default labels and normalizing positions.
 
-### `pom`
+### `pomodoro`
 
 Start a Pomodoro timer and track the time against an issue.
 

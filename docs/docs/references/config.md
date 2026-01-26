@@ -11,7 +11,7 @@ title: Config
 
 {{% snippet "config_cli" issu %}}
 
-{{% snippet "config_httpClient" Tunlr %}}
+{{% snippet "config_httpClient" Issu %}}
 
 {{% snippet config_key "issuesPath" %}}
 
@@ -127,7 +127,7 @@ List of label names to sort by default when listing issues.  Issues will be sort
 
 {{% snippet config_key "pomodoro" %}}
 
-Configuration for the [Pomodoro timer]({{% ref "/docs/references/cli#pom" %}}).  See [Time Tracking]{{% ref "/docs/guides/time-tracking" %}} for more information.
+Configuration for the [Pomodoro timer]({{% ref "/docs/references/cli#pomodoro" %}}).  See [Time Tracking]{{% ref "/docs/guides/time-tracking" %}} for more information.
 
 {{% snippet config_key pomodoro_durationBreakLong %}}
 

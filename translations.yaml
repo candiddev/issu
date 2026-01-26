@@ -226,9 +226,9 @@ translations:
     pt: Liste todos os problemas com filtros e classificação opcionais.
     ru: Перечислите все проблемы с дополнительными фильтрами и сортировкой.
     zh: 列出所有问题，并提供可选的过滤器和排序功能。
-  OrgUsage:
+  OrganizeUsage:
     ar: تنظيم كافة المشكلات، وإضافة العلامات الافتراضية وتطبيع المواضع.
-    context: Org usage
+    context: Organize usage
     de: Organisieren Sie alle Probleme, indem Sie Standardbeschriftungen hinzufügen
       und Positionen normalisieren.
     en: Organize all issues, adding default labels and normalizing positions.
@@ -242,7 +242,7 @@ translations:
     pt: Organize todos os problemas, adicionando rótulos padrão e normalizando posições.
     ru: Организуйте все проблемы, добавив метки по умолчанию и нормализуя позиции.
     zh: 组织所有问题，添加默认标签并规范化位置。
-  PomArg1:
+  PomodoroArg1:
     ar: معرف الإصدار لتتبع الوقت ضده
     context: Argument for Pomodoro to track against an ID
     de: Ausgabe-ID zur Zeiterfassung
@@ -255,9 +255,9 @@ translations:
     pt: emitir id para controlar o tempo contra
     ru: идентификатор выпуска для отслеживания времени
     zh: 用于跟踪时间的问题 ID
-  PomFlagI:
+  PomodoroFlagI:
     ar: عدد بومودوري الذي يجب إكماله قبل فترة انقطاع طويلة.
-    context: Pom flag to set interval
+    context: Pomodoro flag to set interval
     de: Anzahl der Pomodori, die vor einer langen Pause abgeschlossen werden müssen.
     en: Number of Pomodori to complete before a long break.
     es: Número de Pomodori a completar antes de un descanso largo.
@@ -268,9 +268,9 @@ translations:
     pt: Número de Pomodori para completar antes de uma longa pausa.
     ru: Количество «Помидоров», которые нужно завершить перед большим перерывом.
     zh: 长时间休息前要完成的番茄钟数量。
-  PomFlagL:
+  PomodoroFlagL:
     ar: طول فترة انقطاع طويلة.
-    context: Pom flag to set long break length
+    context: Pomodoro flag to set long break length
     de: Dauer einer langen Pause.
     en: Length of a long break.
     es: Duración de un descanso largo.
@@ -281,9 +281,9 @@ translations:
     pt: Duração de uma pausa longa.
     ru: Продолжительность длительного перерыва.
     zh: 长假的长度。
-  PomFlagS:
+  PomodoroFlagS:
     ar: مدة الاستراحة القصيرة.
-    context: Pom flag to set short break length
+    context: Pomodoro flag to set short break length
     de: Dauer einer kurzen Pause.
     en: Length of a short break.
     es: Duración de un descanso breve.
@@ -294,9 +294,9 @@ translations:
     pt: Duração de uma pequena pausa.
     ru: Продолжительность короткого перерыва.
     zh: 短暂休息的时间长度。
-  PomFlagT:
+  PomodoroFlagT:
     ar: طول بومودورو.
-    context: Pom flag to set Pomodoro length
+    context: Pomodro flag to set Pomodoro length
     de: Länge des Pomodoro.
     en: Length of Pomodoro.
     es: Duración del Pomodoro.
@@ -307,9 +307,9 @@ translations:
     pt: Duração do Pomodoro.
     ru: Длина Помидора.
     zh: 番茄工作时长。
-  PomPlaceholderDuration:
+  PomodoroPlaceholderDuration:
     ar: مدة
-    context: Pom placeholder for minutes
+    context: Pomodoro placeholder for minutes
     de: Dauer
     en: duration
     es: duración
@@ -320,9 +320,9 @@ translations:
     pt: duração
     ru: продолжительность
     zh: 期间
-  PomPlaceholderIntervals:
+  PomodoroPlaceholderIntervals:
     ar: فترات
-    context: Pom placeholder for intervals
+    context: Pomodoro placeholder for intervals
     de: Intervalle
     en: intervals
     es: intervalos
@@ -333,10 +333,10 @@ translations:
     pt: intervalos
     ru: интервалы
     zh: 间隔
-  PomUsage:
+  PomodoroUsage:
     ar: يبدأ مؤقت بومودورو - العمل لمدة معينة من الوقت (تسمى بومودورو)، خذ استراحة
       قصيرة، كرر ذلك عدة مرات، ثم خذ استراحة طويلة، وكرر ذلك.
-    context: Pom usage
+    context: Pomodoro usage
     de: Startet einen Pomodoro-Timer – arbeiten Sie eine bestimmte Zeit lang (Pomodoro
       genannt), machen Sie eine kurze Pause, wiederholen Sie dies einige Male, machen
       Sie dann eine lange Pause und wiederholen Sie den Vorgang.

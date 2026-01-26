@@ -15,7 +15,7 @@ Labels are defined under {{% config labels %}}.  Issu ships with default labels,
 A label that represents the date of something, such as when the issue was created or when it needs to be completed.
 
 - `multi`\
-A label that can contain multiple values, such a list of teams affected.
+A label that can contain multiple values, such as a list of teams affected.
 
 - `name`\
 A label representing the name of an issue.  Only one label can have this type.
