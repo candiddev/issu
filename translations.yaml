@@ -3,6 +3,19 @@ outputs:
   package: main
   path: ../go/issu
 translations:
+  AddAfterUsage:
+    ar: حدد أولوية المشكلة لتكون بعد هذا المعرف
+    context: Usage for after flag
+    de: Die Priorität des Problems sollte nach dieser ID liegen.
+    en: Set issue priority to be after this ID
+    es: Establezca la prioridad del problema para que sea posterior a este ID.
+    fr: Définir la priorité du problème à après cet ID
+    hi: इस आईडी के बाद समस्या की प्राथमिकता निर्धारित करें
+    ja: 問題の優先度をこのID以降に設定する
+    nl: Stel de prioriteit van het probleem in op na dit ID.
+    pt: Defina a prioridade da tarefa para ser posterior a este ID.
+    ru: Установите приоритет задачи после этого идентификатора.
+    zh: 将问题优先级设置为低于此 ID
   AddArgs1:
     ar: اسم القضية
     context: add arg1
@@ -16,6 +29,32 @@ translations:
     pt: nome do problema
     ru: название проблемы
     zh: 问题名称
+  AddBeforeUsage:
+    ar: اضبط أولوية المشكلة لتكون قبل هذا المعرّف
+    context: Usage for before flag
+    de: Die Priorität des Problems sollte vor dieser ID liegen.
+    en: Set issue priority to be before this ID
+    es: Establezca la prioridad del problema para que sea anterior a este ID.
+    fr: Définissez la priorité du problème comme étant antérieure à cet ID.
+    hi: इस आईडी से पहले समस्या की प्राथमिकता निर्धारित करें
+    ja: 問題の優先度をこのIDより前に設定します
+    nl: Stel de prioriteit van dit probleem in op &#39;vóór dit ID&#39;.
+    pt: Defina a prioridade da tarefa para ser anterior a este ID.
+    ru: Установите приоритет задачи выше, чем у этого идентификатора.
+    zh: 将问题优先级设置为高于此 ID
+  AddIDPlaceholder:
+    ar: بطاقة تعريف
+    context: ID placeholder
+    de: AUSWEIS
+    en: ID
+    es: IDENTIFICACIÓN
+    fr: IDENTIFIANT
+    hi: पहचान
+    ja: ID
+    nl: ID
+    pt: EU IA
+    ru: ИДЕНТИФИКАТОР
+    zh: ID
   AddUsage:
     ar: أضف مشكلة جديدة وافتحها في المحرر.
     context: add usage
