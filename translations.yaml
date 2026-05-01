@@ -13,6 +13,7 @@ translations:
     hi: इस आईडी के बाद समस्या की प्राथमिकता निर्धारित करें
     ja: 問題の優先度をこのID以降に設定する
     nl: Stel de prioriteit van het probleem in op na dit ID.
+    pl: Ustaw priorytet problemu na wartość po tym identyfikatorze
     pt: Defina a prioridade da tarefa para ser posterior a este ID.
     ru: Установите приоритет задачи после этого идентификатора.
     zh: 将问题优先级设置为低于此 ID
@@ -26,6 +27,7 @@ translations:
     hi: मुद्दे का नाम
     ja: 問題名
     nl: naam van het probleem
+    pl: nazwa problemu
     pt: nome do problema
     ru: название проблемы
     zh: 问题名称
@@ -39,6 +41,7 @@ translations:
     hi: इस आईडी से पहले समस्या की प्राथमिकता निर्धारित करें
     ja: 問題の優先度をこのIDより前に設定します
     nl: Stel de prioriteit van dit probleem in op &#39;vóór dit ID&#39;.
+    pl: Ustaw priorytet problemu tak, aby był przed tym identyfikatorem
     pt: Defina a prioridade da tarefa para ser anterior a este ID.
     ru: Установите приоритет задачи выше, чем у этого идентификатора.
     zh: 将问题优先级设置为高于此 ID
@@ -52,6 +55,7 @@ translations:
     hi: पहचान
     ja: ID
     nl: ID
+    pl: ID
     pt: EU IA
     ru: ИДЕНТИФИКАТОР
     zh: ID
@@ -65,6 +69,7 @@ translations:
     hi: एक नया मुद्दा जोड़ें और संपादक में खोलें.
     ja: 新しい問題を追加してエディターで開きます。
     nl: Voeg een nieuw probleem toe en open het in de editor.
+    pl: Dodaj nowy problem i otwórz w edytorze.
     pt: Adicione um novo problema e abra no editor.
     ru: Добавьте новый выпуск и откройте в редакторе.
     zh: 添加新问题并在编辑器中打开。
@@ -78,6 +83,7 @@ translations:
     hi: स्रोत समस्या को लक्ष्य समस्या के बाद ले जाएँ.
     ja: ソースの問題をターゲットの問題の後に移動します。
     nl: Verplaats het bronprobleem naar het doelprobleem.
+    pl: Przenieś problem źródłowy po problemie docelowym.
     pt: Mova o problema de origem para o problema de destino.
     ru: Перемещайте исходную проблему за целевой.
     zh: 将源问题移至目标问题之后。
@@ -91,6 +97,7 @@ translations:
     hi: स्रोत समस्या को लक्ष्य समस्या से पहले ले जाएँ.
     ja: ソースの問題をターゲットの問題の前に移動します。
     nl: Verplaats het bronprobleem vóór het doelprobleem.
+    pl: Przenieś problem źródłowy przed problemem docelowym.
     pt: Mova o problema de origem antes do problema de destino.
     ru: Переместить исходную проблему перед целевой.
     zh: 将源问题移到目标问题之前。
@@ -104,6 +111,7 @@ translations:
     hi: फ़िल्टर से मेल खाने वाली समस्याओं को हटाएँ.
     ja: フィルターに一致する問題を削除します。
     nl: Verwijder problemen die overeenkomen met een filter.
+    pl: Usuń problemy spełniające kryteria filtra.
     pt: Excluir problemas que correspondem a um filtro.
     ru: Удалить проблемы, соответствующие фильтру.
     zh: 删除符合过滤器的问题。
@@ -117,6 +125,7 @@ translations:
     hi: CLI संचालित समस्या प्रबंधन
     ja: CLI による問題管理
     nl: CLI-gestuurd probleembeheer
+    pl: Zarządzanie problemami za pomocą interfejsu wiersza poleceń
     pt: Gerenciamento de problemas orientado por CLI
     ru: Управление проблемами на основе CLI
     zh: CLI 驱动的问题管理
@@ -130,6 +139,7 @@ translations:
     hi: आईडी या कुंजी=regexp
     ja: id または key=正規表現
     nl: id of sleutel=regexp
+    pl: id lub klucz=wyrażenie regularne
     pt: id ou chave=regexp
     ru: идентификатор или ключ=регулярное выражение
     zh: id 或 key=regexp
@@ -143,6 +153,7 @@ translations:
     hi: किसी आईडी या फ़िल्टर से मेल खाने वाली समस्याओं की सूची संपादित करें.
     ja: ID またはフィルターに一致する問題のリストを編集します。
     nl: Bewerk een lijst met problemen die overeenkomen met een ID of filter.
+    pl: Edytuj listę problemów pasujących do podanego identyfikatora lub filtra.
     pt: Edite uma lista de problemas que correspondem a um ID ou filtro.
     ru: Редактировать список проблем, соответствующих идентификатору или фильтру.
     zh: 编辑与 ID 或过滤器匹配的问题列表。
@@ -156,6 +167,7 @@ translations:
     hi: उपयोग करने के लिए संपादक, डिफ़ॉल्ट $EDITOR है
     ja: 使用するエディタ。デフォルトは $EDITOR
     nl: editor om te gebruiken, standaard is $EDITOR
+    pl: edytor do użycia, domyślnie $EDITOR
     pt: editor a ser usado, o padrão é $EDITOR
     ru: используемый редактор, по умолчанию $EDITOR
     zh: 使用的编辑器，默认为 $EDITOR
@@ -169,6 +181,7 @@ translations:
     hi: संपादक
     ja: エディタ
     nl: editor
+    pl: redaktor
     pt: editor
     ru: редактор
     zh: 编辑
@@ -182,6 +195,7 @@ translations:
     hi: स्रोत आईडी
     ja: ソースID
     nl: bron-ID
+    pl: identyfikator źródła
     pt: ID da fonte
     ru: идентификатор источника
     zh: 源 ID
@@ -195,6 +209,7 @@ translations:
     hi: लक्ष्य आईडी
     ja: ターゲットID
     nl: doel-ID
+    pl: identyfikator docelowy
     pt: ID do alvo
     ru: целевой идентификатор
     zh: 目标标识
@@ -208,6 +223,7 @@ translations:
     hi: लेबल
     ja: ラベル
     nl: label
+    pl: etykieta
     pt: rótulo
     ru: этикетка
     zh: 标签
@@ -221,6 +237,7 @@ translations:
     hi: कुंजी=मान1,मान2 के रूप में लेबल निर्दिष्ट करें
     ja: key=value1,value2の形式でラベルを指定します
     nl: Geef een label op in de vorm van sleutel=waarde1,waarde2
+    pl: Określ etykietę w formie klucz=wartość1,wartość2
     pt: Especifique um rótulo no formato chave=valor1,valor2
     ru: Укажите метку в виде ключ=значение1,значение2
     zh: 以key=value1,value2的形式指定标签
@@ -234,6 +251,7 @@ translations:
     hi: सभी लेबल सूचीबद्ध करें
     ja: すべてのラベルを一覧表示する
     nl: Alle labels weergeven
+    pl: Wyświetl wszystkie etykiety
     pt: Listar todos os rótulos
     ru: Список всех меток
     zh: 列出所有标签
@@ -248,6 +266,7 @@ translations:
     hi: सभी समस्याओं को लिंट करें और यदि कोई त्रुटि पाई जाए तो 1 से बाहर निकलें।
     ja: すべての問題を lint し、エラーが見つかった場合は 1 で終了します。
     nl: Verwijder alle problemen en verlaat versie 1 als er fouten worden gevonden.
+    pl: Zaznacz wszystkie problemy i w przypadku znalezienia błędów wyjdź z menu podręcznego.
     pt: Verifique todos os problemas e saia do 1 se algum erro for encontrado.
     ru: Проведите линтинг всех проблем и выйдите из 1, если будут обнаружены какие-либо
       ошибки.
@@ -262,6 +281,7 @@ translations:
     hi: वैकल्पिक फ़िल्टर और सॉर्टिंग के साथ सभी समस्याओं की सूची बनाएं.
     ja: オプションのフィルターと並べ替えを使用してすべての問題を一覧表示します。
     nl: Maak een lijst van alle problemen met optionele filters en sortering.
+    pl: Wypisz wszystkie problemy, stosując opcjonalne filtry i sortowanie.
     pt: Liste todos os problemas com filtros e classificação opcionais.
     ru: Перечислите все проблемы с дополнительными фильтрами и сортировкой.
     zh: 列出所有问题，并提供可选的过滤器和排序功能。
@@ -278,6 +298,7 @@ translations:
     hi: सभी मुद्दों को व्यवस्थित करें, डिफ़ॉल्ट लेबल जोड़ें और स्थिति को सामान्य करें।
     ja: すべての問題を整理し、デフォルトのラベルを追加して位置を正規化します。
     nl: Organiseer alle problemen, voeg standaardlabels toe en normaliseer posities.
+    pl: Zorganizuj wszystkie problemy, dodając domyślne etykiety i normalizując pozycje.
     pt: Organize todos os problemas, adicionando rótulos padrão e normalizando posições.
     ru: Организуйте все проблемы, добавив метки по умолчанию и нормализуя позиции.
     zh: 组织所有问题，添加默认标签并规范化位置。
@@ -291,6 +312,7 @@ translations:
     hi: समय का पता लगाने के लिए आईडी जारी करें
     ja: 時間を追跡するための問題ID
     nl: probleem-id om tijd bij te houden
+    pl: identyfikator problemu do śledzenia czasu
     pt: emitir id para controlar o tempo contra
     ru: идентификатор выпуска для отслеживания времени
     zh: 用于跟踪时间的问题 ID
@@ -304,6 +326,7 @@ translations:
     hi: लंबे ब्रेक से पहले पूरा करने के लिए पोमोडोरी की संख्या।
     ja: 長い休憩の前に完了するポモドーロの数。
     nl: Aantal Pomodori dat voltooid moet worden voordat er een lange pauze volgt.
+    pl: Liczba Pomodori do wykonania przed dłuższą przerwą.
     pt: Número de Pomodori para completar antes de uma longa pausa.
     ru: Количество «Помидоров», которые нужно завершить перед большим перерывом.
     zh: 长时间休息前要完成的番茄钟数量。
@@ -317,6 +340,7 @@ translations:
     hi: एक लम्बे ब्रेक की अवधि.
     ja: 長い休憩の長さ。
     nl: Duur van een lange pauze.
+    pl: Długość długiej przerwy.
     pt: Duração de uma pausa longa.
     ru: Продолжительность длительного перерыва.
     zh: 长假的长度。
@@ -330,6 +354,7 @@ translations:
     hi: एक छोटे ब्रेक की लंबाई.
     ja: 短い休憩の長さ。
     nl: Duur van een korte pauze.
+    pl: Długość krótkiej przerwy.
     pt: Duração de uma pequena pausa.
     ru: Продолжительность короткого перерыва.
     zh: 短暂休息的时间长度。
@@ -343,6 +368,7 @@ translations:
     hi: पोमोडोरो की लंबाई.
     ja: ポモドーロの長さ。
     nl: Lengte van de Pomodoro.
+    pl: Długość Pomodoro.
     pt: Duração do Pomodoro.
     ru: Длина Помидора.
     zh: 番茄工作时长。
@@ -356,6 +382,7 @@ translations:
     hi: अवधि
     ja: 間隔
     nl: duur
+    pl: czas trwania
     pt: duração
     ru: продолжительность
     zh: 期间
@@ -369,6 +396,7 @@ translations:
     hi: अंतराल
     ja: 間隔
     nl: intervallen
+    pl: przerwy
     pt: intervalos
     ru: интервалы
     zh: 间隔
@@ -393,6 +421,9 @@ translations:
     nl: 'Start een Pomodoro-timer: werk een bepaalde tijd (een Pomodoro), neem een
       korte pauze, herhaal dit een paar keer, neem dan een lange pauze en herhaal
       dit.'
+    pl: Uruchamia licznik Pomodoro — pracuj przez określony czas (nazywany Pomodoro),
+      zrób krótką przerwę, powtórz czynność kilka razy, następnie zrób długą przerwę
+      i powtórz.
     pt: 'Inicia um cronômetro Pomodoro: trabalhe por um determinado período de tempo
       (chamado de Pomodoro), faça uma pequena pausa, repita isso algumas vezes, depois
       faça uma longa pausa e repita.'
@@ -410,6 +441,7 @@ translations:
     hi: समस्याओं के लिए लेबल हटाएं
     ja: 問題のラベルを削除する
     nl: Verwijder het label voor problemen
+    pl: Usuń etykietę dotyczącą problemów
     pt: Excluir o rótulo para problemas
     ru: Удалить метку для проблем
     zh: 删除问题标签
@@ -425,6 +457,7 @@ translations:
     hi: फ़िल्टर से मेल खाने वाली समस्याओं के लिए लेबल और मान सेट करें.
     ja: フィルターに一致する問題のラベルと値を設定します。
     nl: Stel een label en waarden in voor problemen die aan een filter voldoen.
+    pl: Ustaw etykietę i wartości dla problemów, które pasują do filtra.
     pt: Defina um rótulo e valores para problemas que correspondem a um filtro.
     ru: Установите метку и значения для проблем, соответствующих фильтру.
     zh: 为符合过滤器的问题设置标签和值。
@@ -438,6 +471,7 @@ translations:
     hi: मान (अनेक मानों के लिए दोहराया जा सकता है)
     ja: 値（複数の値の場合は繰り返すことができます）
     nl: waarde (kan herhaald worden voor meerdere waarden)
+    pl: wartość (można powtarzać dla wielu wartości)
     pt: valor (pode ser repetido para vários valores)
     ru: значение (можно повторить для нескольких значений)
     zh: 值（可以重复多个值）
