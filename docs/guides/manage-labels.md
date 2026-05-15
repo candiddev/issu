@@ -57,3 +57,7 @@ Issu can organize the labels on issues automatically using {{% cli org %}}.  Thi
 - Renumber any positional labels so they are sequential (1, 2, 3 instead of 1:aaaa)
 
 Issu org can create a lot of diffs, but the changes should be minor and not impact the git history of the issue.
+
+## Dynamic Labels
+
+Issu can add dynamic labels to issues, mostly for use with {{% cli list %}}.  Dynamic labels use {{% expr s %}} to add additional labels at runtime.

@@ -72,3 +72,7 @@ Issues can have their priorities changed using {{% cli after %}} and {{% cli bef
 ## Editing Issues
 
 Issues can be edited using {{% cli edit %}}--Issu will open the issue within your $EDITOR variable.  Additionally, issues can have labels bulk-edited using {{% cli label %}}.
+
+## Archiving Issues
+
+Issu can automatically archive old issues by configuring {{% config archive %}}.  Issu will organize archived issues into a separate folder, and optionally avoid parsing them on initial load.

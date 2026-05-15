@@ -9,6 +9,30 @@ title: Config
 
 ## Configuration Values
 
+### `archive` {#archive}
+
+Configurations for archiving old issues.
+
+{{% snippet config_key "archive_include" %}}
+
+Boolean, determines if archived issues are parsed.  Enabling this may decrease performance.
+
+**Default:** `false`
+
+{{% snippet config_key "archive_path" %}}
+
+String, the path to the folder where issues will be archived to.  If this doesn't start with a `/`, it will be relative to the {{% config issuesPath %}}.
+
+**Default:** `"archive"`
+
+{{% snippet config_key "archive_rule" %}}
+
+String, an {{% expr %}} for evaluating whether an issue will be archived.  The object passed to it will be a `map[string]any` of the Issue labels.  If the expression returns `true`, the issue will be archived.
+
+**Default:** `"status == \"Done\""`
+
+By default, Issue will archive any issues if the label `status` has the value of `Done`.
+
 {{% snippet "config_cli" issu orange %}}
 
 {{% snippet "config_httpClient" Issu %}}
@@ -29,6 +53,10 @@ Labels is a map of label names to configurations that define labels/metadata for
 ```json
 {
   "labels": {
+    "complete": {
+      "expression": "tasks == 0 ? \"\" : sprintf(\"%v%%\", round((tasks_done / (tasks == 0 ? 1 : tasks)) * 100))",
+      "type": "text"
+    },
     "created": {
       "default": ["today"],
       "required": true,
@@ -51,6 +79,18 @@ Labels is a map of label names to configurations that define labels/metadata for
         "Done",
       ]
     },
+    "tasks": {
+      "expression": "tasks_done + tasks_todo",
+      "type": "text"
+    },
+    "tasks_done": {
+      "expression": "countMatches(description, ` \\[(x|X)\\] `)",
+      "type": "text"
+    },
+    "tasks_todo": {
+      "expression": "countMatches(description, ` \\[ \\] `)",
+      "type": "text"
+    },
     "time": {
       "type": "time"
     }
@@ -63,6 +103,14 @@ Labels is a map of label names to configurations that define labels/metadata for
 Single or list of default string values that are added to issues during [creation]({{% ref "/docs/references/cli#add" %}}) or [organize]({{% ref "/docs/references/cli#org" %}}) for the label, if it's [required](#labels_required).  Must match [regexp](#labels_regexp) and [values](#labels_values), if they're defined.
 
 **Default:** `[]`
+
+#### `labels_[label]_expression` {#labels_expression}
+
+String, a {{% expr %}} to dynamically create labels based on other labels or issue data.  These labels are not saved with issues and are always recalculated.  Labels can reference other dynamic labels--Issu will determine the proper order to calculate labels automatically.  Issu will report errors if there is a dependency cycle.
+
+**Default:** `""`
+
+By default, Issu configures a few dynamic labels (`complete`, `tasks`, `tasks_done`, and `tasks_todo`).  These labels are used to track progress for issues based on Markdown tasks (`- [ ] `).
 
 #### `labels_[label]_required` {#labels_required}
 
@@ -89,6 +137,22 @@ Single or list of allowed string values for the label.  Issues that do not have 
 **Default:** `[]`
 
 {{% snippet config_licenseKey Issu %}}
+
+{{% snippet config_key lintRules %}}
+
+Map of string keys with {{% expr %}} values for evaluating whether an issue is correct.  The object passed to expressions will be a `map[string]any` of the Issue labels.  If any rule returns `true`, the issue will fail linting.
+
+**Default:**
+
+```json
+{
+  "lintRules": {
+    "if status is done, all tasks are completed": "status == \"Done\" && tasks_todo != 0"
+  }
+}
+```
+
+By default, issues that have the label `status` with the value of `Done` but still have Markdown tasks (`- [ ]`) outstanding will fail linting.
 
 ### `list` {#list}
 

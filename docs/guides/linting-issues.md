@@ -22,6 +22,10 @@ ERROR Linting errors found
 
 **For Continuous Delivery/Continuous Integration Usage**, it's highly recommended to run linting for every {{% config issuesPath %}} change.
 
+## Custom Linting Rules
+
+You can configure custom linting rules using {{% config lintRules %}}.  These rules will be evaluated against all issue labels and fail linting for any issue that returns `true`.
+
 ## Fixing Linting Issues
 
 If the linting issue is due to a missing label, and that label has a default, Issu can automatically fix the problem by [Organizing the Labels]({{% ref "/docs/guides/manage-labels#organize-labels" %}}){{% cli org %}}.  This command will reorganize and relabel issues, potentially fixing linting problems.
