@@ -53,7 +53,7 @@ List issues as a table or a JSON array.
 
 ### `organize`
 
-Organize issues by adding default labels and normalizing positions.
+Organize issues by adding default labels and optionally re-ranking.
 
 ### `pomodoro`
 

@@ -285,6 +285,20 @@ translations:
     pt: Liste todos os problemas com filtros e classificação opcionais.
     ru: Перечислите все проблемы с дополнительными фильтрами и сортировкой.
     zh: 列出所有问题，并提供可选的过滤器和排序功能。
+  OrganizeRank:
+    ar: إعادة ترتيب القضايا
+    context: Organize rank usage
+    de: Neubewertung von Problemen
+    en: Re-rank issues
+    es: Problemas de reclasificación
+    fr: Problèmes de réorganisation
+    hi: पुनर्क्रमबद्ध मुद्दे
+    ja: 問題の順位付け
+    nl: Herrangschikking van kwesties
+    pl: Ponowna ocena problemów
+    pt: questões de reclassificação
+    ru: Вопросы переранжирования
+    zh: 重新排序问题
   OrganizeUsage:
     ar: تنظيم كافة المشكلات، وإضافة العلامات الافتراضية وتطبيع المواضع.
     context: Organize usage
