@@ -11,6 +11,7 @@ translations:
     es: Establezca la prioridad del problema para que sea posterior a este ID.
     fr: Définir la priorité du problème à après cet ID
     hi: इस आईडी के बाद समस्या की प्राथमिकता निर्धारित करें
+    it: Imposta la priorità del problema su dopo questo ID
     ja: 問題の優先度をこのID以降に設定する
     nl: Stel de prioriteit van het probleem in op na dit ID.
     pl: Ustaw priorytet problemu na wartość po tym identyfikatorze
@@ -25,6 +26,7 @@ translations:
     es: Nombre del problema
     fr: nom du problème
     hi: मुद्दे का नाम
+    it: nome del problema
     ja: 問題名
     nl: naam van het probleem
     pl: nazwa problemu
@@ -39,6 +41,7 @@ translations:
     es: Establezca la prioridad del problema para que sea anterior a este ID.
     fr: Définissez la priorité du problème comme étant antérieure à cet ID.
     hi: इस आईडी से पहले समस्या की प्राथमिकता निर्धारित करें
+    it: Imposta la priorità del problema su prima di questo ID
     ja: 問題の優先度をこのIDより前に設定します
     nl: Stel de prioriteit van dit probleem in op &#39;vóór dit ID&#39;.
     pl: Ustaw priorytet problemu tak, aby był przed tym identyfikatorem
@@ -53,6 +56,7 @@ translations:
     es: IDENTIFICACIÓN
     fr: IDENTIFIANT
     hi: पहचान
+    it: ID
     ja: ID
     nl: ID
     pl: ID
@@ -67,6 +71,7 @@ translations:
     es: Agregue un nuevo problema y ábralo en el editor.
     fr: Ajoutez un nouveau problème et ouvrez-le dans l&#39;éditeur.
     hi: एक नया मुद्दा जोड़ें और संपादक में खोलें.
+    it: Aggiungi un nuovo problema e aprilo nell&#39;editor.
     ja: 新しい問題を追加してエディターで開きます。
     nl: Voeg een nieuw probleem toe en open het in de editor.
     pl: Dodaj nowy problem i otwórz w edytorze.
@@ -81,6 +86,7 @@ translations:
     es: Trasladar el problema de origen al de destino.
     fr: Déplacer le problème source après le problème cible.
     hi: स्रोत समस्या को लक्ष्य समस्या के बाद ले जाएँ.
+    it: Spostare il problema di origine dopo il problema di destinazione.
     ja: ソースの問題をターゲットの問題の後に移動します。
     nl: Verplaats het bronprobleem naar het doelprobleem.
     pl: Przenieś problem źródłowy po problemie docelowym.
@@ -95,6 +101,7 @@ translations:
     es: Mueva el problema de origen antes del problema de destino.
     fr: Déplacer le problème source avant le problème cible.
     hi: स्रोत समस्या को लक्ष्य समस्या से पहले ले जाएँ.
+    it: Spostare il problema di origine prima del problema di destinazione.
     ja: ソースの問題をターゲットの問題の前に移動します。
     nl: Verplaats het bronprobleem vóór het doelprobleem.
     pl: Przenieś problem źródłowy przed problemem docelowym.
@@ -109,6 +116,7 @@ translations:
     es: Eliminar problemas que coinciden con un filtro.
     fr: Supprimer les problèmes correspondant à un filtre.
     hi: फ़िल्टर से मेल खाने वाली समस्याओं को हटाएँ.
+    it: Elimina i problemi che corrispondono a un filtro.
     ja: フィルターに一致する問題を削除します。
     nl: Verwijder problemen die overeenkomen met een filter.
     pl: Usuń problemy spełniające kryteria filtra.
@@ -123,6 +131,7 @@ translations:
     es: Gestión de problemas basada en CLI
     fr: Gestion des problèmes pilotée par CLI
     hi: CLI संचालित समस्या प्रबंधन
+    it: Gestione dei problemi tramite CLI
     ja: CLI による問題管理
     nl: CLI-gestuurd probleembeheer
     pl: Zarządzanie problemami za pomocą interfejsu wiersza poleceń
@@ -137,6 +146,7 @@ translations:
     es: id o clave=regexp
     fr: id ou clé = regexp
     hi: आईडी या कुंजी=regexp
+    it: id o chiave=regexp
     ja: id または key=正規表現
     nl: id of sleutel=regexp
     pl: id lub klucz=wyrażenie regularne
@@ -151,6 +161,7 @@ translations:
     es: Editar una lista de problemas que coincidan con un ID o filtro.
     fr: Modifier une liste de problèmes correspondant à un ID ou à un filtre.
     hi: किसी आईडी या फ़िल्टर से मेल खाने वाली समस्याओं की सूची संपादित करें.
+    it: Modifica un elenco di problemi corrispondenti a un ID o a un filtro.
     ja: ID またはフィルターに一致する問題のリストを編集します。
     nl: Bewerk een lijst met problemen die overeenkomen met een ID of filter.
     pl: Edytuj listę problemów pasujących do podanego identyfikatora lub filtra.
@@ -165,6 +176,7 @@ translations:
     es: editor a utilizar, el predeterminado es $EDITOR
     fr: éditeur à utiliser, la valeur par défaut est $EDITOR
     hi: उपयोग करने के लिए संपादक, डिफ़ॉल्ट $EDITOR है
+    it: editor da utilizzare, quello predefinito è $EDITOR
     ja: 使用するエディタ。デフォルトは $EDITOR
     nl: editor om te gebruiken, standaard is $EDITOR
     pl: edytor do użycia, domyślnie $EDITOR
@@ -179,6 +191,7 @@ translations:
     es: editor
     fr: éditeur
     hi: संपादक
+    it: redattore
     ja: エディタ
     nl: editor
     pl: redaktor
@@ -193,6 +206,7 @@ translations:
     es: Identificación de la fuente
     fr: ID de la source
     hi: स्रोत आईडी
+    it: ID sorgente
     ja: ソースID
     nl: bron-ID
     pl: identyfikator źródła
@@ -207,6 +221,7 @@ translations:
     es: Identificación del objetivo
     fr: identifiant cible
     hi: लक्ष्य आईडी
+    it: ID di destinazione
     ja: ターゲットID
     nl: doel-ID
     pl: identyfikator docelowy
@@ -221,6 +236,7 @@ translations:
     es: etiqueta
     fr: étiquette
     hi: लेबल
+    it: etichetta
     ja: ラベル
     nl: label
     pl: etykieta
@@ -235,6 +251,7 @@ translations:
     es: Especifique una etiqueta en el formato clave=valor1,valor2
     fr: Spécifiez une étiquette sous la forme clé=valeur1,valeur2
     hi: कुंजी=मान1,मान2 के रूप में लेबल निर्दिष्ट करें
+    it: Specificare un&#39;etichetta nella forma chiave=valore1,valore2
     ja: key=value1,value2の形式でラベルを指定します
     nl: Geef een label op in de vorm van sleutel=waarde1,waarde2
     pl: Określ etykietę w formie klucz=wartość1,wartość2
@@ -249,6 +266,7 @@ translations:
     es: Listar todas las etiquetas
     fr: Lister toutes les étiquettes
     hi: सभी लेबल सूचीबद्ध करें
+    it: Elenca tutte le etichette
     ja: すべてのラベルを一覧表示する
     nl: Alle labels weergeven
     pl: Wyświetl wszystkie etykiety
@@ -264,6 +282,8 @@ translations:
     es: Limpie todos los problemas y salga 1 si se encuentra algún error.
     fr: Vérifiez tous les problèmes et quittez 1 si des erreurs sont détectées.
     hi: सभी समस्याओं को लिंट करें और यदि कोई त्रुटि पाई जाए तो 1 से बाहर निकलें।
+    it: Analizza tutti i problemi e, in caso di errori, esci con codice di uscita
+      1.
     ja: すべての問題を lint し、エラーが見つかった場合は 1 で終了します。
     nl: Verwijder alle problemen en verlaat versie 1 als er fouten worden gevonden.
     pl: Zaznacz wszystkie problemy i w przypadku znalezienia błędów wyjdź z menu podręcznego.
@@ -279,6 +299,7 @@ translations:
     es: Enumere todos los problemas con filtros y clasificación opcionales.
     fr: Répertoriez tous les problèmes avec des filtres et un tri facultatifs.
     hi: वैकल्पिक फ़िल्टर और सॉर्टिंग के साथ सभी समस्याओं की सूची बनाएं.
+    it: Elenca tutti i problemi con filtri e opzioni di ordinamento opzionali.
     ja: オプションのフィルターと並べ替えを使用してすべての問題を一覧表示します。
     nl: Maak een lijst van alle problemen met optionele filters en sortering.
     pl: Wypisz wszystkie problemy, stosując opcjonalne filtry i sortowanie.
@@ -293,6 +314,7 @@ translations:
     es: Problemas de reclasificación
     fr: Problèmes de réorganisation
     hi: पुनर्क्रमबद्ध मुद्दे
+    it: Problemi di riordinamento
     ja: 問題の順位付け
     nl: Herrangschikking van kwesties
     pl: Ponowna ocena problemów
@@ -310,6 +332,8 @@ translations:
     fr: Organisez tous les problèmes en ajoutant des étiquettes par défaut et en normalisant
       les positions.
     hi: सभी मुद्दों को व्यवस्थित करें, डिफ़ॉल्ट लेबल जोड़ें और स्थिति को सामान्य करें।
+    it: Organizza tutti i problemi, aggiungendo etichette predefinite e normalizzando
+      le posizioni.
     ja: すべての問題を整理し、デフォルトのラベルを追加して位置を正規化します。
     nl: Organiseer alle problemen, voeg standaardlabels toe en normaliseer posities.
     pl: Zorganizuj wszystkie problemy, dodając domyślne etykiety i normalizując pozycje.
@@ -324,6 +348,7 @@ translations:
     es: Emitir identificación para rastrear el tiempo
     fr: identifiant de problème pour suivre le temps écoulé
     hi: समय का पता लगाने के लिए आईडी जारी करें
+    it: ID problema per tracciare il tempo rispetto a
     ja: 時間を追跡するための問題ID
     nl: probleem-id om tijd bij te houden
     pl: identyfikator problemu do śledzenia czasu
@@ -338,6 +363,7 @@ translations:
     es: Número de Pomodori a completar antes de un descanso largo.
     fr: Nombre de Pomodori à terminer avant une longue pause.
     hi: लंबे ब्रेक से पहले पूरा करने के लिए पोमोडोरी की संख्या।
+    it: Numero di storie da completare prima di una lunga pausa.
     ja: 長い休憩の前に完了するポモドーロの数。
     nl: Aantal Pomodori dat voltooid moet worden voordat er een lange pauze volgt.
     pl: Liczba Pomodori do wykonania przed dłuższą przerwą.
@@ -352,6 +378,7 @@ translations:
     es: Duración de un descanso largo.
     fr: Durée d&#39;une longue pause.
     hi: एक लम्बे ब्रेक की अवधि.
+    it: Durata di una lunga pausa.
     ja: 長い休憩の長さ。
     nl: Duur van een lange pauze.
     pl: Długość długiej przerwy.
@@ -366,6 +393,7 @@ translations:
     es: Duración de un descanso breve.
     fr: Durée d&#39;une courte pause.
     hi: एक छोटे ब्रेक की लंबाई.
+    it: Durata di una breve pausa.
     ja: 短い休憩の長さ。
     nl: Duur van een korte pauze.
     pl: Długość krótkiej przerwy.
@@ -380,6 +408,7 @@ translations:
     es: Duración del Pomodoro.
     fr: Longueur du Pomodoro.
     hi: पोमोडोरो की लंबाई.
+    it: Lunghezza del Pomodoro.
     ja: ポモドーロの長さ。
     nl: Lengte van de Pomodoro.
     pl: Długość Pomodoro.
@@ -394,6 +423,7 @@ translations:
     es: duración
     fr: durée
     hi: अवधि
+    it: durata
     ja: 間隔
     nl: duur
     pl: czas trwania
@@ -408,6 +438,7 @@ translations:
     es: intervalos
     fr: intervalles
     hi: अंतराल
+    it: intervalli
     ja: 間隔
     nl: intervallen
     pl: przerwy
@@ -431,6 +462,9 @@ translations:
       une longue pause et répétez.'
     hi: पोमोडोरो टाइमर शुरू करें - एक निश्चित समय तक काम करें (जिसे पोमोडोरो कहा जाता
       है), थोड़ा ब्रेक लें, इसे कुछ बार दोहराएं, फिर लंबा ब्रेक लें, और दोहराएं।
+    it: 'Avvia un timer Pomodoro: lavora per un certo periodo di tempo (chiamato Pomodoro),
+      fai una breve pausa, ripeti questo ciclo alcune volte, poi fai una lunga pausa
+      e ripeti.'
     ja: ポモドーロ タイマーを開始します。一定の時間 (ポモドーロと呼ばれます) 作業し、短い休憩を取り、これを数回繰り返し、その後長い休憩を取り、これを繰り返します。
     nl: 'Start een Pomodoro-timer: werk een bepaalde tijd (een Pomodoro), neem een
       korte pauze, herhaal dit een paar keer, neem dan een lange pauze en herhaal
@@ -453,6 +487,7 @@ translations:
     es: Eliminar la etiqueta de los problemas
     fr: Supprimer l&#39;étiquette des problèmes
     hi: समस्याओं के लिए लेबल हटाएं
+    it: Elimina l&#39;etichetta per problemi
     ja: 問題のラベルを削除する
     nl: Verwijder het label voor problemen
     pl: Usuń etykietę dotyczącą problemów
@@ -469,6 +504,8 @@ translations:
     fr: Définissez une étiquette et des valeurs pour les problèmes qui correspondent
       à un filtre.
     hi: फ़िल्टर से मेल खाने वाली समस्याओं के लिए लेबल और मान सेट करें.
+    it: Imposta un&#39;etichetta e dei valori per i problemi che corrispondono a un
+      filtro.
     ja: フィルターに一致する問題のラベルと値を設定します。
     nl: Stel een label en waarden in voor problemen die aan een filter voldoen.
     pl: Ustaw etykietę i wartości dla problemów, które pasują do filtra.
@@ -483,6 +520,7 @@ translations:
     es: valor (se puede repetir para múltiples valores)
     fr: valeur (peut être répétée pour plusieurs valeurs)
     hi: मान (अनेक मानों के लिए दोहराया जा सकता है)
+    it: valore (può essere ripetuto per più valori)
     ja: 値（複数の値の場合は繰り返すことができます）
     nl: waarde (kan herhaald worden voor meerdere waarden)
     pl: wartość (można powtarzać dla wielu wartości)
