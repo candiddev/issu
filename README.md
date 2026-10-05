@@ -2,7 +2,7 @@
 
 > CLI Issue Management for Code Repositories
 
-**Latest Release Notes: [v2026.09](https://issu.dev/blog/whats-new-202609/)**
+**Latest Release Notes: [v2026.10](https://issu.dev/blog/whats-new-202610/)**
 
 [:speech_balloon: Discussions](https://issu.dev/docs/references/mailing-lists/)\
 [:book: Docs](https://issu.dev/docs/)\
